@@ -1,5 +1,5 @@
 .day_div {
-    background-color: #fdffe0db;
+    background-color: #fdffe0db !important;
     color: #261f19;
 
 }
@@ -9,7 +9,7 @@
 }
 
 .night_div {
-    background-color:#1c1c1cf1;
+    background-color:#1c1c1cf1 !important;
     color: antiquewhite;
 }
 .night_div a{
