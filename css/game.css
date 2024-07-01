@@ -29,9 +29,7 @@ body{
     max-width: 100%;
   }
 
-  input {
-    min-width: 400px;
-  }
+
   #jokeField{
     font-style: italic;
     font-size: small;

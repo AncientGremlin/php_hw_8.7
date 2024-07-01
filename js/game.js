@@ -153,12 +153,12 @@ document.getElementById('btnLess').addEventListener('click', function () {
             gameRun = false;
         } else {
             maxValue = answerNumber  - 1;
-            answerNumber  = Math.floor((minValue + maxValue) / 2);
+            answerNumber  = Math.ceil((minValue + maxValue) / 2);
             const phraseRandom = Math.round( Math.random()*3);
             const answerPhrase = (phraseRandom === 1) ?
                 `Ой, сколько тучек в небе... Ах, о чём это мы... Может ` :
                 (phraseRandom === 2)? `Я верю, что это `:
-                `Астрологи предсказали неделю этого числа - `;
+                `Астрологи предсказали неделю этого числа: `;
             orderNumber++;
             orderNumberField.innerText = orderNumber;
             if(convert(answerNumber).length<20)
